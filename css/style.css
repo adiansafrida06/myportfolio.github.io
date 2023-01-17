@@ -104,7 +104,8 @@ header.shadow {
   order: 3;
 }
 .home-img img {
-  width: 60%;
+  width: 100%;
+  border-radius: 50%;
 }
 .home-text span {
   font-size: var(--medium-font);
@@ -154,8 +155,7 @@ header.shadow {
 }
  
 .about-img img {
-  width: 40%;
-  border-radius: 50%;
+  width: 80%;
 }
 .about-text p {
   font-size: var(--p-font);
