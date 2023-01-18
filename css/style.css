@@ -420,6 +420,10 @@ form textarea {
   section {
     padding: 50px 4%;
   }
+  .home__hand {
+        width: 30px;
+        height: 30px;
+    }
 }
 @media (max-width: 881px) {
   :root {
@@ -514,6 +518,10 @@ form textarea {
     font-size: 0.9rem;
     font-weight: 500;
   }
+	.home__hand {
+       	width: 25px;
+       	height: 25px;
+    }
   .information .info-box span {
     font-size: 1rem;
   }
