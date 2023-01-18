@@ -105,7 +105,7 @@ header.shadow {
 }
 .home-img img {
   width: 100%;
-  border-radius: 50%;
+  border-radius: 80%;
 }
 .home-text span {
   font-size: var(--medium-font);
@@ -122,6 +122,16 @@ header.shadow {
   font-size: var(--p-font);
   font-weight: 400;
   margin: 0.7rem 0 1rem;
+}
+.home__title {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-0-25);
+    color: #083A80;
+}
+.home__hand {
+    width: 47px;
+    height: 47px;
+    margin-left: 0.4rem;
 }
 .social {
   display: flex;
@@ -156,6 +166,7 @@ header.shadow {
  
 .about-img img {
   width: 80%;
+  border-radius: 30%;
 }
 .about-text p {
   font-size: var(--p-font);
