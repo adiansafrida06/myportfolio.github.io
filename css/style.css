@@ -555,9 +555,15 @@ form textarea {
     font-size: 0.9rem;
     font-weight: 500;
   }
+<<<<<<< HEAD
   .home__hand {
         width: 25px;
         height: 25px;
+=======
+	.home__hand {
+       	width: 25px;
+       	height: 25px;
+>>>>>>> 3c4ba088ae2a830fc9bdf3da9f1e59db6a6475f4
     }
   .information .info-box span {
     font-size: 1rem;
