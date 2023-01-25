@@ -59,7 +59,7 @@ header {
   padding: 13px 10%;
   transition: 0.2s;
   box-shadow: -3px -3px 7px #ffffff73,
-				2px 2px 5px rgba(94, 104, 121, 0.288);
+        2px 2px 5px rgba(94, 104, 121, 0.288);
 }
 header.shadow {
   box-shadow: 0 0 4px rgb(14 55 54 / 15%);
@@ -368,19 +368,56 @@ form textarea {
   resize: none;
   height: 200px;
 }
-.contact-button {
-  width: 160px;
-  cursor: pointer;
-  background: #2768d9;
-  color: #fff;
-  justify-content: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-left: 35%;
+
+
+
+.contact__card {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    text-align: center;
 }
-.contact-button:hover {
-  background: var(--hover);
+
+.contact__card-icon {
+    font-size: 2rem;
+    color: var(--title-color);
+    margin-bottom: var(--mb-0-25);
 }
+
+.contact__card-title,
+.contact__card-data {
+    font-size: var(--small-font-size);
+}
+
+.contact__card-title {
+    font-weight: var(--font-medium);
+}
+
+.contact__card-data {
+    display: block;
+    margin-bottom: var(--mb-0-75);
+}
+
+.contact__button {
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+}
+
+.contact__button-icon {
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.contact__button:hover .contact__button-icon {
+    transform: translate(0.25rem);
+}
+
+
 .footer {
   display: grid;
   place-items: center;
@@ -420,6 +457,10 @@ form textarea {
   section {
     padding: 50px 4%;
   }
+  .home__hand {
+        width: 30px;
+        height: 30px;
+    }
 }
 @media (max-width: 881px) {
   :root {
@@ -514,6 +555,10 @@ form textarea {
     font-size: 0.9rem;
     font-weight: 500;
   }
+  .home__hand {
+        width: 25px;
+        height: 25px;
+    }
   .information .info-box span {
     font-size: 1rem;
   }
